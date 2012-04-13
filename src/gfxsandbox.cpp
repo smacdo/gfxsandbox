@@ -63,8 +63,6 @@ const GLushort SQUARE_ELEMENT_BUFFER_DATA[SQUARE_ELEMENT_COUNT] =
     0, 1, 2, 3
 };
 
-GLuint loadTexture( const std::string& filename );
-
 int main( int argc, char** argv )
 {
     glutInit( &argc, argv );
